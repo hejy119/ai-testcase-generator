@@ -1,0 +1,29 @@
+# 机密内容 —— 永远不要提交
+knowledge/白皮书/
+knowledge/系统概览.md
+*.zip
+
+# 环境与凭证
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets.json
+
+# 依赖
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 输出产物（按需解除注释）
+# output/
